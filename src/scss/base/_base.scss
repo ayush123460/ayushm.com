@@ -1,0 +1,30 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    background: $bg;
+    color: $fg;
+    font-family: 'Montserrat', sans-serif;
+    font-size: $font-regular;
+    font-weight: $font-normal;
+    overflow-x: hidden;
+}
+
+p {
+    letter-spacing: 0.005em;
+    line-height: 1.6em;
+}
+
+.container {
+    padding: 0 120px;
+}

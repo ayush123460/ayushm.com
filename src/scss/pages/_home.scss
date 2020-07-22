@@ -1,0 +1,20 @@
+main {
+    position: relative;
+    padding: 60px 120px;
+
+    .tag {
+        font-size: $font-heading;
+        margin-bottom: 60px;
+    }
+
+    .para {
+        max-width: 600px;
+        margin-bottom: 60px;
+    }
+
+    .illustration {
+        position: absolute;
+        top: 0;
+        right: 120px;
+    }
+}

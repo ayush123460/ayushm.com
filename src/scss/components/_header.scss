@@ -1,0 +1,53 @@
+header {
+    padding: 60px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .brand {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 210px;
+        font-size: $font-brand;
+
+        .logo {
+            width: 60px;
+            height: 60px;
+        }
+
+        .name {
+            display: flex;
+            flex-direction: column;
+            font-weight: $font-bold;
+        }
+    }
+
+    nav {
+        font-size: $font-nav;
+
+        a,
+        a:active,
+        a:visited {
+            display: inline-block;
+            color: $fg;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding-right: 80px;
+            transition: 0.2s ease;
+
+            &:hover {
+                color: $tertiary;
+            }
+
+            &.active {
+                color: $primary;
+                font-weight: $font-bold;
+            }
+
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+    }
+}
