@@ -1,6 +1,6 @@
 <template>
     <header>
-        <div class="brand">
+        <a href="https://ayushm.com" class="brand">
             <div class="logo">
                 <img src="@/assets/logo.png" alt="Ayush M. Logo" width="60px" height="60px">
             </div>
@@ -8,9 +8,9 @@
                 <span>Ayush</span>
                 <span>Mukherjee.</span>
             </div>
-        </div>
+        </a>
         <nav>
-            <router-link class="active" to="#work">work</router-link>
+            <router-link to="#work">work</router-link>
             <router-link to="#about">about</router-link>
             <router-link to="#skills">skills</router-link>
             <router-link to="#contact">contact</router-link>

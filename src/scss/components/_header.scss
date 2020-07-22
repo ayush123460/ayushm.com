@@ -1,25 +1,32 @@
 header {
-    padding: 60px 120px;
+    padding: 40px 90px 40px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     
     .brand {
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        width: 210px;
+        padding: 20px 30px 20px 30px;
         font-size: $font-brand;
+        color: $fg;
+        text-decoration: none;
+        transition: 0.2s ease-in-out;
 
         .logo {
             width: 60px;
             height: 60px;
+            margin-right: 10px;
         }
 
         .name {
             display: flex;
             flex-direction: column;
             font-weight: $font-bold;
+        }
+
+        &:hover {
+            background: darken($bg, 4%);
         }
     }
 
