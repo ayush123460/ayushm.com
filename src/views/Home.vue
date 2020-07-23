@@ -49,7 +49,7 @@
           <p>Advita is VIT Bhopal University's premier tech and cultural fest. 2020's edition had a lot of special things planned but unfortunately shut down due to the global pandemic.</p>
         </div>
         <div class="body__cta">
-          <a href="https://advitya.net" target="_blank" class="btn">Visit Website</a>
+          <a href="http://advitya.net" target="_blank" class="btn">Visit Website</a>
           <a href="https://github.com/ayush123460/advitya2020" target="_blank" class="btn btn-secondary">View on Github</a>
         </div>
       </div>
