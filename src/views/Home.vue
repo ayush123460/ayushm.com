@@ -211,25 +211,29 @@ export default {
   methods: {
     submitForm() {
       event.preventDefault()
-      document.querySelector('input[type=text]').disabled = true
-      document.querySelector('input[type=email]').disabled = true
-      document.querySelector('textarea').disabled = true
-      document.querySelector('input.btn').disabled = true
+	  if(this.name == null || this.email == null || this.message == null)
+		alert('Your name, email, or message cannot be empty.')
+	  else {
+    	  document.querySelector('input[type=text]').disabled = true
+	      document.querySelector('input[type=email]').disabled = true
+    	  document.querySelector('textarea').disabled = true
+	      document.querySelector('input.btn').disabled = true
 
-      axios.post('https://cms.aplesports.com/api/forms/submit/contact', {
-        form: {
-          name: this.name,
-          email: this.email,
-          message: this.message
-        }
-      }, {
-        headers: {
-          'Cockpit-Token': process.env.VUE_APP_CMS_TOKEN
-        }
-      })
-      .then(() => {
-        alert('Your message has been submitted.')
-      })
+    	  axios.post('https://cms.aplesports.com/api/forms/submit/contact', {
+	        form: {
+    	      name: this.name,
+	          email: this.email,
+        	  message: this.message
+    	    }
+	      }, {
+    	    headers: {
+	          'Cockpit-Token': process.env.VUE_APP_CMS_TOKEN
+        	}
+    	  })
+	      .then(() => {
+        	alert('Your message has been submitted.')
+      	})
+	  }
     }
   }
 }
