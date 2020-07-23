@@ -1,0 +1,13 @@
+.title {
+    margin-top: 180px;
+    padding-top: 20px;
+    font-size: $font-section;
+    font-weight: $font-bold;
+    color: $primary;
+
+    .sub {
+        color: rgba($secondary, 0.8);
+        font-size: $font-section-sub;
+        font-weight: $font-normal;
+    }
+}

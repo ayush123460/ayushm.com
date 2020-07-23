@@ -11,6 +11,10 @@ body {
     box-sizing: inherit;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: $bg;
     color: $fg;
@@ -26,5 +30,13 @@ p {
 }
 
 .container {
-    padding: 0 120px;
+    padding: 0 60px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 0 30px;
+    }
 }

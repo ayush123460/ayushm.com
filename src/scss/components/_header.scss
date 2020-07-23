@@ -1,5 +1,5 @@
 header {
-    padding: 40px 90px 40px 120px;
+    padding: 40px 60px 40px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,7 +7,7 @@ header {
     .brand {
         display: flex;
         align-items: center;
-        padding: 20px 30px 20px 30px;
+        padding: 20px 30px;
         font-size: $font-brand;
         color: $fg;
         text-decoration: none;
@@ -55,6 +55,16 @@ header {
             &:last-child {
                 padding-right: 0;
             }
+        }
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    header {
+        justify-content: center;
+        
+        nav {
+            display: none;
         }
     }
 }

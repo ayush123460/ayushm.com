@@ -1,0 +1,17 @@
+footer {
+    background: white;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: $font-nav;
+    padding: 0 30px;
+
+    a,
+    a:active,
+    a:visited {
+        text-decoration: none;
+        color: $primary;
+    }
+}
