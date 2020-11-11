@@ -1,5 +1,5 @@
 header {
-    padding: 40px 60px 40px 30px;
+    padding: 20px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,8 +20,6 @@ header {
         }
 
         .name {
-            display: flex;
-            flex-direction: column;
             font-weight: $font-bold;
         }
 
@@ -50,10 +48,6 @@ header {
             &.active {
                 color: $primary;
                 font-weight: $font-bold;
-            }
-
-            &:last-child {
-                padding-right: 0;
             }
         }
     }

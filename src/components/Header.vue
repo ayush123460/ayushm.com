@@ -5,8 +5,7 @@
                 <img src="@/assets/logo.png" alt="Ayush M. Logo" width="60px" height="60px">
             </div>
             <div class="name">
-                <span>Ayush</span>
-                <span>Mukherjee</span>
+                Ayush Mukherjee
             </div>
         </router-link>
         <nav>
