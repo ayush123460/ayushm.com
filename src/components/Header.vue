@@ -6,13 +6,12 @@
             </div>
             <div class="name">
                 <span>Ayush</span>
-                <span>Mukherjee.</span>
+                <span>Mukherjee</span>
             </div>
         </router-link>
         <nav>
             <router-link to="#work">work</router-link>
             <router-link to="#about">about</router-link>
-            <router-link to="#skills">skills</router-link>
             <router-link to="#contact">contact</router-link>
         </nav>
     </header>
