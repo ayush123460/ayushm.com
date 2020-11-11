@@ -3,16 +3,16 @@
   <main>
     <div class="content">
       <div class="tag">
-        Hey! I'm <span class="name">Ayush Mukherjee.</span>
+        Hey! I'm <span class="underline">Ayush Mukherjee.</span>
         <br>
         I'm a software engineer and open-source enthusiast.
       </div>
       <div class="para">
-        <p>This website is the digital home of my projects. You can wait for my upcoming blog, learn more about me or say hi!</p>
+          <p>This website is the digital home of my projects. You can wait for my upcoming blog, learn more <span class="underline">about me</span> or <span class="underline">say hi!</span></p>
       </div>
       <div class="cta">
-        <a href="#work" class="btn">See my work</a>
-        <a href="#contact" class="btn btn-secondary">Discuss a project</a>
+        <a href="#work" class="btn">About Me</a>
+        <a href="#contact" class="btn btn-secondary">GitHub Profile</a>
       </div>
     </div>
     <div class="illustration">
@@ -95,11 +95,11 @@
   </section>
 
   <div class="title" id="contact">
-    <div class="sub">Ways to</div>
     Contact Me
   </div>
 
   <section class="contact">
+    <h1>Wanna say hi, or discuss a project? Leave a message below!</h1>
     <div class="form">
       <form id="contact-form">
         <div class="input-group">
@@ -121,10 +121,21 @@
       </form>
     </div>
     <div class="socials">
-      <span>Alternatively, I'm also available via:</span>
-      <span><img width="25px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjIgNXYxNGgtMjB2LTE0aDIwem0yLTJoLTI0djE4aDI0di0xOHptLTIgMTZsLTYuNTI2LTYuNjE4LTMuNDQ1IDMuNDgzLTMuNDE4LTMuNTI1LTYuNjExIDYuNjYgNS4wNTEtOC01LjA1MS02IDEwLjAyOSA3LjQ0NiA5Ljk3MS03LjQ0Ni00Ljk5OCA2LjAxIDQuOTk4IDcuOTl6Ii8+PC9zdmc+"><a href="mailto:me@ayushm.com">me@ayushm.com</a></span>
-      <span><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTkgMGgtMTRjLTIuNzYxIDAtNSAyLjIzOS01IDV2MTRjMCAyLjc2MSAyLjIzOSA1IDUgNWgxNGMyLjc2MiAwIDUtMi4yMzkgNS01di0xNGMwLTIuNzYxLTIuMjM4LTUtNS01em0tLjEzOSA5LjIzN2MuMjA5IDQuNjE3LTMuMjM0IDkuNzY1LTkuMzMgOS43NjUtMS44NTQgMC0zLjU3OS0uNTQzLTUuMDMyLTEuNDc1IDEuNzQyLjIwNSAzLjQ4LS4yNzggNC44Ni0xLjM1OS0xLjQzNy0uMDI3LTIuNjQ5LS45NzYtMy4wNjYtMi4yOC41MTUuMDk4IDEuMDIxLjA2OSAxLjQ4Mi0uMDU2LTEuNTc5LS4zMTctMi42NjgtMS43MzktMi42MzMtMy4yNi40NDIuMjQ2Ljk0OS4zOTQgMS40ODYuNDExLTEuNDYxLS45NzctMS44NzUtMi45MDctMS4wMTYtNC4zODMgMS42MTkgMS45ODYgNC4wMzggMy4yOTMgNi43NjYgMy40My0uNDc5LTIuMDUzIDEuMDgtNC4wMyAzLjE5OS00LjAzLjk0MyAwIDEuNzk3LjM5OCAyLjM5NSAxLjAzNy43NDgtLjE0NyAxLjQ1MS0uNDIgMi4wODYtLjc5Ni0uMjQ2Ljc2Ny0uNzY2IDEuNDEtMS40NDMgMS44MTYuNjY0LS4wOCAxLjI5Ny0uMjU2IDEuODg1LS41MTctLjQzOS42NTYtLjk5NiAxLjIzNC0xLjYzOSAxLjY5N3oiLz48L3N2Zz4="><a target="_blank" href="https://twitter.com/ayush123460">@ayush123460</a></span>
-      <span><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xOSAyNGgtMTRjLTIuNzYxIDAtNS0yLjIzOS01LTV2LTE0YzAtMi43NjEgMi4yMzktNSA1LTVoMTRjMi43NjIgMCA1IDIuMjM5IDUgNXYxNGMwIDIuNzYxLTIuMjM4IDUtNSA1em0tMy4yODgtNC44ODhsLS40MjQtMS40OCAxLjAyNC45NTIuOTY4Ljg5NiAxLjcyIDEuNTJ2LTE0LjM1MmMwLS45MTItLjczNi0xLjY0OC0xLjY0LTEuNjQ4aC0xMC43MmMtLjkwNCAwLTEuNjQuNzM2LTEuNjQgMS42NDh2MTAuODE2YzAgLjkxMi43MzYgMS42NDggMS42NCAxLjY0OGg5LjA3MnptLTEuNDQtMy42NjRjMS43NjgtLjA1NiAyLjQ0OC0xLjIxNiAyLjQ0OC0xLjIxNiAwLTIuNTc2LTEuMTUyLTQuNjY0LTEuMTUyLTQuNjY0LTEuMTUyLS44NjQtMi4yNDgtLjg0LTIuMjQ4LS44NGwtLjExMi4xMjhjMS4zNi40MTYgMS45OTIgMS4wMTYgMS45OTIgMS4wMTYtLjgzMi0uNDU2LTEuNjQ4LS42OC0yLjQwOC0uNzY4LS41NzYtLjA2NC0xLjEyOC0uMDQ4LTEuNjE2LjAxNmwtLjEzNi4wMTZjLS4yOC4wMjQtLjk2LjEyOC0xLjgxNi41MDRsLS40NzIuMjMycy42NjQtLjYzMiAyLjEwNC0xLjA0OGwtLjA4LS4wOTZzLTEuMDk2LS4wMjQtMi4yNDguODRjMCAwLTEuMTUyIDIuMDg4LTEuMTUyIDQuNjY0IDAgMCAuNjcyIDEuMTYgMi40NCAxLjIxNmwuNTM2LS42NjRjLTEuMDE2LS4zMDQtMS40LS45NDQtMS40LS45NDRsLjIyNC4xMzYuMDMyLjAyNC4wMzIuMDE4LjAwOS4wMDQuMDMxLjAxOGMuMi4xMTIuNC4yLjU4NC4yNzIuMzI4LjEyOC43Mi4yNTYgMS4xNzYuMzQ0LjYuMTEyIDEuMzA0LjE1MiAyLjA3Mi4wMDguMzc2LS4wNjQuNzYtLjE3NiAxLjE2LS4zNDQuMjgtLjEwNC41OTItLjI1Ni45Mi0uNDcyIDAgMC0uNC42NTYtMS40NDguOTUybC41MjguNjQ4em0tMy43Mi0zLjczNmMtLjQ1NiAwLS44MTYuNC0uODE2Ljg4OHMuMzY4Ljg4OC44MTYuODg4Yy40NTYgMCAuODE2LS40LjgxNi0uODg4LjAwOC0uNDg4LS4zNi0uODg4LS44MTYtLjg4OHptMi45MiAwYy0uNDU2IDAtLjgxNi40LS44MTYuODg4cy4zNjguODg4LjgxNi44ODhjLjQ1NiAwIC44MTYtLjQuODE2LS44ODhzLS4zNi0uODg4LS44MTYtLjg4OHoiLz48L3N2Zz4=">Ayush#4148</a></span>
+      <h3>Alternatively, I'm also available via:</h3>
+      <div class="socials-container">
+        <div class="social">
+          <img width="25px" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjIgNXYxNGgtMjB2LTE0aDIwem0yLTJoLTI0djE4aDI0di0xOHptLTIgMTZsLTYuNTI2LTYuNjE4LTMuNDQ1IDMuNDgzLTMuNDE4LTMuNTI1LTYuNjExIDYuNjYgNS4wNTEtOC01LjA1MS02IDEwLjAyOSA3LjQ0NiA5Ljk3MS03LjQ0Ni00Ljk5OCA2LjAxIDQuOTk4IDcuOTl6Ii8+PC9zdmc+">
+          <a href="mailto:me@ayushm.com">me@ayushm.com</a>
+        </div>
+        <div class="social">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTkgMGgtMTRjLTIuNzYxIDAtNSAyLjIzOS01IDV2MTRjMCAyLjc2MSAyLjIzOSA1IDUgNWgxNGMyLjc2MiAwIDUtMi4yMzkgNS01di0xNGMwLTIuNzYxLTIuMjM4LTUtNS01em0tLjEzOSA5LjIzN2MuMjA5IDQuNjE3LTMuMjM0IDkuNzY1LTkuMzMgOS43NjUtMS44NTQgMC0zLjU3OS0uNTQzLTUuMDMyLTEuNDc1IDEuNzQyLjIwNSAzLjQ4LS4yNzggNC44Ni0xLjM1OS0xLjQzNy0uMDI3LTIuNjQ5LS45NzYtMy4wNjYtMi4yOC41MTUuMDk4IDEuMDIxLjA2OSAxLjQ4Mi0uMDU2LTEuNTc5LS4zMTctMi42NjgtMS43MzktMi42MzMtMy4yNi40NDIuMjQ2Ljk0OS4zOTQgMS40ODYuNDExLTEuNDYxLS45NzctMS44NzUtMi45MDctMS4wMTYtNC4zODMgMS42MTkgMS45ODYgNC4wMzggMy4yOTMgNi43NjYgMy40My0uNDc5LTIuMDUzIDEuMDgtNC4wMyAzLjE5OS00LjAzLjk0MyAwIDEuNzk3LjM5OCAyLjM5NSAxLjAzNy43NDgtLjE0NyAxLjQ1MS0uNDIgMi4wODYtLjc5Ni0uMjQ2Ljc2Ny0uNzY2IDEuNDEtMS40NDMgMS44MTYuNjY0LS4wOCAxLjI5Ny0uMjU2IDEuODg1LS41MTctLjQzOS42NTYtLjk5NiAxLjIzNC0xLjYzOSAxLjY5N3oiLz48L3N2Zz4=">
+          <a target="_blank" href="https://twitter.com/ayush123460">@ayush123460</a>
+        </div>
+        <div class="social">
+          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xOSAyNGgtMTRjLTIuNzYxIDAtNS0yLjIzOS01LTV2LTE0YzAtMi43NjEgMi4yMzktNSA1LTVoMTRjMi43NjIgMCA1IDIuMjM5IDUgNXYxNGMwIDIuNzYxLTIuMjM4IDUtNSA1em0tMy4yODgtNC44ODhsLS40MjQtMS40OCAxLjAyNC45NTIuOTY4Ljg5NiAxLjcyIDEuNTJ2LTE0LjM1MmMwLS45MTItLjczNi0xLjY0OC0xLjY0LTEuNjQ4aC0xMC43MmMtLjkwNCAwLTEuNjQuNzM2LTEuNjQgMS42NDh2MTAuODE2YzAgLjkxMi43MzYgMS42NDggMS42NCAxLjY0OGg5LjA3MnptLTEuNDQtMy42NjRjMS43NjgtLjA1NiAyLjQ0OC0xLjIxNiAyLjQ0OC0xLjIxNiAwLTIuNTc2LTEuMTUyLTQuNjY0LTEuMTUyLTQuNjY0LTEuMTUyLS44NjQtMi4yNDgtLjg0LTIuMjQ4LS44NGwtLjExMi4xMjhjMS4zNi40MTYgMS45OTIgMS4wMTYgMS45OTIgMS4wMTYtLjgzMi0uNDU2LTEuNjQ4LS42OC0yLjQwOC0uNzY4LS41NzYtLjA2NC0xLjEyOC0uMDQ4LTEuNjE2LjAxNmwtLjEzNi4wMTZjLS4yOC4wMjQtLjk2LjEyOC0xLjgxNi41MDRsLS40NzIuMjMycy42NjQtLjYzMiAyLjEwNC0xLjA0OGwtLjA4LS4wOTZzLTEuMDk2LS4wMjQtMi4yNDguODRjMCAwLTEuMTUyIDIuMDg4LTEuMTUyIDQuNjY0IDAgMCAuNjcyIDEuMTYgMi40NCAxLjIxNmwuNTM2LS42NjRjLTEuMDE2LS4zMDQtMS40LS45NDQtMS40LS45NDRsLjIyNC4xMzYuMDMyLjAyNC4wMzIuMDE4LjAwOS4wMDQuMDMxLjAxOGMuMi4xMTIuNC4yLjU4NC4yNzIuMzI4LjEyOC43Mi4yNTYgMS4xNzYuMzQ0LjYuMTEyIDEuMzA0LjE1MiAyLjA3Mi4wMDguMzc2LS4wNjQuNzYtLjE3NiAxLjE2LS4zNDQuMjgtLjEwNC41OTItLjI1Ni45Mi0uNDcyIDAgMC0uNC42NTYtMS40NDguOTUybC41MjguNjQ4em0tMy43Mi0zLjczNmMtLjQ1NiAwLS44MTYuNC0uODE2Ljg4OHMuMzY4Ljg4OC44MTYuODg4Yy40NTYgMCAuODE2LS40LjgxNi0uODg4LjAwOC0uNDg4LS4zNi0uODg4LS44MTYtLjg4OHptMi45MiAwYy0uNDU2IDAtLjgxNi40LS44MTYuODg4cy4zNjguODg4LjgxNi44ODhjLjQ1NiAwIC44MTYtLjQuODE2LS44ODhzLS4zNi0uODg4LS44MTYtLjg4OHoiLz48L3N2Zz4=">
+          Ayush#4148
+        </div>
+      </div>
     </div>
   </section>
 </div>
