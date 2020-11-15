@@ -257,16 +257,12 @@ main {
     }
 
     .about {
-        flex-direction: column;
+        .profile {
+            margin-top: 50px;
+        }
 
         .content {
-            .heading {
-                padding: 0 30px;
-            }
-
-            .body {
-                padding: 0 30px;
-            }
+            max-width: 100%;
 
             .cta {
                 display: flex;
