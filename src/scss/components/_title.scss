@@ -1,13 +1,19 @@
 .title {
-    margin-top: 180px;
-    padding-top: 20px;
+    position: relative;
+    margin: 100px 60px 0 60px;
     font-size: $font-section;
     font-weight: $font-bold;
-    color: $primary;
+    color: $primary-dark;
+    display: inline-block;
 
-    .sub {
-        color: rgba($secondary, 0.8);
-        font-size: $font-section-sub;
-        font-weight: $font-normal;
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 20%;
+        background: $tertiary;
+        z-index: -1;
     }
 }
