@@ -24,11 +24,20 @@
         .body__title {
             font-size: $font-heading;
             font-weight: $font-bold;
+            align-self: center;
+            justify-self: center;
         }
 
         .body__content {
             margin: 40px 0;
-            width: 70%;
+            width: 90%;
+            align-self: center;
+            justify-self: center;
+        }
+
+        .body__cta {
+            align-self: center;
+            justify-self: center;
         }
     }
 }
@@ -40,6 +49,10 @@
         margin-right: 0;
         margin-left: 10px;
         align-items: flex-end;
+
+        .body__content {
+            width: 90%;
+        }
     }
 }
 
