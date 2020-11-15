@@ -1,25 +1,29 @@
 <template>
-<div class="container">
+<!-- TODO: FIX INDENTATION -->
+<div class="wrapper">
+<div class="container bg-alternate">
   <main>
-    <div class="content">
-      <div class="tag">
-        Hey! I'm <span class="underline">Ayush Mukherjee.</span>
-        <br>
-        I'm a software engineer and open-source enthusiast.
-      </div>
-      <div class="para">
+      <div class="content">
+        <div class="tag">
+          Hey! I'm <span class="underline">Ayush Mukherjee.</span>
+          <br>
+          I'm a software engineer and open-source enthusiast.
+        </div>
+        <div class="para">
           <p>This website is the digital home of my projects. You can wait for my upcoming blog, learn more <span class="underline">about me</span> or <span class="underline">say hi!</span></p>
+        </div>
+        <div class="cta">
+          <a href="#about" class="btn">About Me</a>
+          <a href="https://github.com/ayush123460" target="_blank" class="btn btn-secondary">GitHub Profile</a>
+        </div>
       </div>
-      <div class="cta">
-        <a href="#work" class="btn">About Me</a>
-        <a href="#contact" class="btn btn-secondary">GitHub Profile</a>
+      <div class="illustration">
+        <img src="@/assets/illustration.png" alt="Illustration">
       </div>
-    </div>
-    <div class="illustration">
-      <img src="@/assets/illustration.png" alt="Illustration">
-    </div>
   </main>
+</div>
 
+<div class="container">
   <div class="title" id="work">
     Work / Projects
   </div>
@@ -69,7 +73,9 @@
       </div>
     </div>
   </section>
+</div>
 
+<div class="container bg-alternate">
   <div class="title" id="about">
     About Me
   </div>
@@ -93,7 +99,9 @@
       </div>
     </div>
   </section>
+</div>
 
+<div class="container">
   <div class="title" id="contact">
     Contact Me
   </div>
@@ -138,6 +146,7 @@
       </div>
     </div>
   </section>
+</div>
 </div>
 </template>
 
