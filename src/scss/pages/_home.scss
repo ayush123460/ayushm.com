@@ -294,6 +294,16 @@ main {
             }
         }
     }
+
+    .contact {
+        .socials > .socials-container {
+            flex-direction: column;
+
+            .social:nth-child(2) {
+                margin: 20px 0;
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 768px) {
